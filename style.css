@@ -1,0 +1,1130 @@
+@font-face {
+    font-family: Airbnb;
+    src: url(./fonts/AirbnbCerealVF_W_Wght.2d9d32865ef1262644c455b3ead871e9.woff2);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+
+}
+.body,html{
+    overflow-x: hidden;
+
+}
+
+.first-section-root{
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.first-section{
+    line-height: 19px;
+}
+
+.section-head{
+    width: auto;
+}
+
+.section-1{
+    margin: 14px 24px 0px;
+}
+
+
+.first-button{
+    padding: 0px 4px;
+    background-color: #ffffffff;
+    border-radius: 32px;
+    width:100%;
+    height: 54.4px;
+    border:0.5px solid rgba(0 0 0 / 0.08);
+    box-shadow: 0 3px 10px rgba(0 0 0 / 0.1);
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    align-items: center;
+    
+   
+}
+
+
+.first-head1{
+    font-family: Airbnb;
+    font-size: 14px;
+    color:#222222;
+    font-weight: 500;
+    
+}
+
+.first-inhead{
+    display: flex;
+    column-gap: 4px;
+    row-gap: 5px;
+    padding-right: 24px;
+    
+
+}
+
+.first-inhead span{
+    font-family: Airbnb;
+    font-size: 12px;
+    color:#6a6a6a
+}
+
+.where-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    row-gap: 1px;
+
+
+}
+
+.search-icon{
+    display: grid;
+     justify-content: center;
+}
+
+
+.icon-symbols{
+    display: flex;
+    text-align: center; 
+    gap: 16px;
+    overflow-x: auto;
+    width: 100%;
+    height: 74px;
+    padding: 0px 24px;
+    
+}
+
+.icon-symbols::-webkit-scrollbar{
+    display: none;
+}
+
+.ticket{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0px;
+    margin: 12px 0px 10px;
+    font-family: Airbnb;
+    font-size: 12px;
+    color: #6a6a6a;
+    align-items: center;
+    min-width: 64px;
+    width:auto;
+    max-width: 100px;
+    gap: 4px;
+    
+}
+.ticket1{
+    padding: 4px 0px;
+    margin: 12px 0px 10px;
+    font-family: Airbnb;
+    font-size: 12px;
+    color: #6a6a6a;
+    align-items: center;
+    gap:4px
+    
+}
+
+.icon{
+    width: 100%;
+    
+}
+
+
+.main-section-child{
+    margin: 24px 0px 32px;
+    padding: 0px 24px;
+
+
+}
+.section-child{
+    display: grid;
+    grid-template-columns: 1fr ;
+    row-gap: 40px;
+}
+
+
+.upper-button{
+    border-radius: 100px;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 12px; 
+    margin-right: 13px;
+    border: 0px;
+     
+}
+
+.crowd-images{
+    width: 100%;
+    aspect-ratio: 20/19;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+.first-head{
+    font-family: Airbnb;
+    font-size: 15px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.second-head{
+    font-family: Airbnb;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(106, 106, 106);
+    line-height: 19px;
+}
+.third-head{
+    font-family:Airbnb;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.past-exp{
+    padding: 52px  0px 24px;
+}
+
+.past-head{
+    font-family: Airbnb;
+    font-size: 32px;
+    color: #222222;
+    font-weight: 500;
+}
+
+
+.section{
+display: flex;
+justify-content: flex-end;
+}
+
+.footer-main-root{
+    background-color: #f7f7f7;
+}
+
+.footer-main{
+    padding:48px 24px;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+}
+
+.footer-head{
+    font-family: Airbnb;
+    font-size: 22px;
+    color: #222222;
+    font-weight: 500;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+
+.footer-outdoor{
+    padding: 0px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-midle{
+    display: flex;
+    overflow-x: auto;
+    border-bottom: 1px solid #dddddd;
+    white-space: nowrap;
+    margin: 6px 6px 6px -10px;    
+}
+
+.footer-midle::-webkit-scrollbar{
+    display: none;
+}
+
+.popular{
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    padding: 10px;
+    margin: 6px 6px 6px -10px;
+    border-bottom: 2px solid #222222
+   
+    
+}
+.art{
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6a6a6a;
+    padding: 10px;
+    margin: 6px 6px 6px 0px;
+}
+
+.footer-canmore{
+    padding-top: 32px;
+}
+
+.canmore{
+    font-family: Airbnb;
+    font-weight: 500;
+    color: #222222;
+    font-size: 14px;
+    
+}
+.pet{
+    font-family: Airbnb;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 14px;
+}
+
+.footer-list{
+     display: grid; 
+     grid-template-columns: repeat(2,1fr); 
+     list-style: none;
+     column-gap: 8px;
+     row-gap: 24px;
+  
+}
+
+.final-section-footer{
+    padding: 0px 24px;
+}
+
+.footer-support{
+    padding: 24px 0px;
+    border-bottom: 1px solid #dddddd;
+  
+}
+
+.support{
+    margin-bottom: 12px;
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+}
+
+
+
+
+.footer-help{
+    list-style: none;
+    display: grid;
+    gap: 12px;
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+}
+
+.undersection-footer-root{
+    padding: 24px 0px;
+}
+
+.undersection{
+    margin-bottom: 22px;
+}
+
+
+.english{
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+    border: none;
+    background: none;
+    display: flex;
+    gap:8px;
+
+}
+
+
+.final-bottom{
+    margin-bottom: 3px;
+    font-family: Airbnb;
+    font-size: 14px;
+    color: #222222;
+}
+
+.final{
+    margin-top: 3px;
+    font-family: Airbnb;
+    font-size: 14px;
+    color: #222222;
+    display: flex;
+    gap: 8px;
+}
+
+.undersection-english{
+    display: flex;
+    gap:20px
+}
+
+.canmore1{
+    display: flex;
+    gap:3px;
+    align-items: center;
+    font-family: Airbnb;
+    font-weight: 500;
+    color: #222222;
+    font-size: 14px;
+}
+
+.final-bottom-under{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+
+
+}
+
+
+
+.login-logo{
+    width: 74.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explore{
+    font-family: Airbnb;
+    font-size:10px;
+    line-height: 20px;
+    color: #6a6a6a;
+}
+.explore1{
+    font-family: Airbnb;
+    font-size: 10px;
+    color: #E81948;
+    line-height: 20px;
+}
+
+/*--------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------mobile(550)--------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:550px){
+
+    .section-child{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 24px;
+        row-gap: 40px;
+    }
+}
+
+
+/*-------------------------------------------dupli-------------------------------------------------------------*/
+.first-section-tab{
+    display: none;
+
+}
+
+.facebook-section{
+    display: none;
+}
+
+.arow-tab{
+    display: none;
+}
+
+.mountain{
+    display:none;
+}
+.family{
+    display:none;
+}
+.mountain1{
+    display: none;
+}
+.footer-canmore-tab{
+    display: none;
+}
+
+.jasper-tab{
+    display: none;
+}
+.mainhead-tab-root{
+    display: none;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------tablet(744)-----------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width:744px){
+    .section-head{
+        display: none;
+    }
+    
+    .first-section-tab{
+        display: flex; 
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .arow-tab{
+        display: flex;
+        border:1px solid #dddd;
+        border-radius:100px;
+        width:32.9px;
+        height: 32.4px;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    
+.airbnb-logo{
+    display:none;
+}
+    
+.section-tab{  
+    padding: 0px 40px;  
+    display: flex;   
+    
+    justify-content: space-between;    
+    width: 100%;   
+    align-items: center; 
+
+
+   }   
+
+.contact{
+    width: 32px;
+    height: 32px;
+}
+
+ .tab-button-section{  
+      padding: 0px 24px;  
+     min-width: 348px; 
+   
+ }
+
+
+ .tab-button{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    max-width:100%;
+    border-radius: 40px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.08),0 4px 12px rgba(0,0,0,0.05);
+    height: 48px;
+    display: flex;
+    align-items: center;
+ }
+
+
+ .tab-main-button{
+    display: flex;
+    align-items: center;
+ }
+
+
+ .Anywhere{
+    padding: 0px 16px;
+    font-family: Airbnb;
+    font-size: 14px;
+    
+   
+ }
+
+
+
+
+.Airbnb-section{
+    padding: 12px;
+}
+
+
+.Airbnb-head{
+    font-family: Airbnb;
+    font-size: 14px;
+    color: #222222;
+    font-weight: 500;
+    
+}
+
+
+.button-contact{
+    border-radius: 30px;
+    padding: 8px 8px 8px 14px;
+    display: flex;
+    border: 0.8px solid rgb(221, 221, 221);
+    height: 48px;
+    width: 85.6px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    
+}
+
+.air-logo{
+    display: flex;
+    align-items: center;
+   
+
+}
+
+
+.Airbnb-home-section{
+    display: flex;
+    
+}
+
+
+
+.Airbnb-home{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    
+}
+
+/* .icon-symbols{ */
+    /* padding: 0px 40px; */
+
+/* } */
+
+.internet-tab-button{
+    height: 42px;
+    width: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.footer-main{
+    padding: 48px 40px;
+}
+
+.final-section-footer{
+    padding: 0px 40px;
+}
+
+.facebook-section{
+    display: flex;
+    margin-left: 48px;
+    gap: 15px;
+
+}
+
+.undersection-english{
+    justify-content: center;
+}
+
+.final-bottom{
+    text-align: center;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
+    
+.undersection{
+    margin-bottom: 16px;
+}
+    
+
+/*.internet-tab-button{
+    padding: 12px;
+
+ } */
+
+.icon-symbols-root{
+    display: flex;
+    align-items: center;
+    padding: 12px 40px 0px;
+    
+    
+   
+}
+
+.crowd-images{
+    width: 100%;
+}
+
+
+
+.main-section-child{
+    margin: 16px 0px 48px;
+    padding: 0px 40px;
+}
+
+
+.footer-main{
+    width: 100%;
+}
+
+
+.jasper-tab{
+    display: block;
+}
+
+.jasper{
+ font-family: Airbnb;
+ font-size: 14px;
+ font-weight: 500;
+ color: #222222;
+
+}
+.cabin{
+    font-family:Airbnb;
+    font-size:14px;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+
+/* ----------------------------------tab head section-------------------------------- */
+
+.mainhead-tab-root{
+    display: block;
+    padding: 0px 40px;
+}
+.mainhead-tab-section{
+    padding-bottom: 30px;
+}
+
+
+.stay-experience-section{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stay-experience{
+    display: flex;
+}
+
+
+.stay-margin{
+    margin: 10px 12px;
+}
+
+.experience-margin{
+    margin: 10px 12px;
+}
+
+.stay{
+    font-family: Airbnb;
+    font-weight: 500;
+    color: #222222;
+}
+
+.experience{
+    font-family: Airbnb;
+    font-weight: 400;
+    color: #6a6a6a;
+
+}
+
+.button-mainsection-tab{
+    display: flex;
+    
+}
+
+
+.checkin-checkout-section{
+    display: flex;
+}
+
+.where-section-padding{
+     padding: 14px 32px; 
+}
+
+
+.checkin-padding{
+    padding: 14px 24px; 
+}
+
+.checkout-padding{
+     padding: 14px 24px; 
+}
+
+.who-section-padding{
+     padding: 14px 24px; 
+}
+/* .who-searchicon-section{ 
+    display: flex;
+    align-items: center;
+/* } */
+
+.button-mainsection-root{
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 32px;
+    width: 100%;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+}
+
+.where1{
+    font-family: Airbnb;
+    font-size: 12px;
+    padding-bottom: 2px;
+    color: #222222;
+    font-weight: 500;
+}
+.checkin{
+    font-family: Airbnb;
+    font-size: 12px;
+    color: #222222;
+    font-weight: 500;
+}
+
+.checkout{
+    font-family: Airbnb;
+    font-size: 12px;
+    padding-bottom: 2px;
+    color: #222222;
+    font-weight: 500;
+}
+.who{
+    font-family: Airbnb;
+    font-size: 12px;
+    padding-bottom: 2px;
+    color: #222222;
+    font-weight: 500;
+}
+
+.search1{
+    font-family: Airbnb;
+    font-size: 14px;
+    color: #6a6a6a;
+}
+.dates{
+    font-family: Airbnb;
+    font-size: 14px;
+    color:#6a6a6a;
+}
+.dates1{
+    width: 90%;
+    font-family: Airbnb;
+    font-size: 14px;
+    color:#6a6a6a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+   
+}
+.where-section-tab{
+    width: 50%;
+    margin:-1px;
+    
+    
+}
+.who-searchicon-section{
+    width: 40%;
+}
+
+.search-icon-tab-section{
+    display:flex;
+    align-items: center;
+    padding-right: 9px;
+}
+
+.search-icon-tab{
+    background-color: rgb(255, 56, 92);
+    border-radius: 24px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 16px;
+    
+
+}
+
+.mainhead-tab-root{
+    border-bottom: 1px solid #dddddd;
+   
+}
+
+.line1{
+    border-right: 1px solid #dddddd;
+    height: 32px;
+    align-self: center;
+}
+
+.section-1{
+    margin-top:0px;
+}
+.section-tab{
+    height: 80px;
+}
+
+.final-bottom-section-root{
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------tab(768)----------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+@media screen and (min-width:768px){
+
+.crowd-images{
+    width: 100%;
+}
+    
+}
+
+/* ----------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------tab(798)------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:798px){
+
+.arow{
+    display: none;
+    width: 100%
+} 
+
+.dates1{
+    text-overflow:none ;
+    overflow: none;
+    width: 100%;
+    
+
+}
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------tab(950)-------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:950px){
+
+.section-child{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}    
+
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.final-center-footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 8px;
+}
+
+
+.footer-support{
+    padding: 48px 0px;
+}
+
+
+.mainhead-tab-root{
+    margin-top: -80px;
+}
+
+.button-mainsection-root-child{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.button-mainsection-root{
+    max-width: 848.4px;
+}
+.mainhead-tab-section{
+    padding-bottom: 20px;
+}
+}
+
+/* ---------------------------------------------dup---------------------------------------------------------------------- */
+.footer-list-third{
+    display: none;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------lap(1128)---------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:1128px){
+
+    .section-child{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .air-logo{
+        display: none;
+    }
+    .airbnb-logo{
+        display: flex;
+    }
+
+    .footer-list-third{
+        display: block;
+    }
+
+.ibiza{
+    font-family: Airbnb;
+    font-size: 14px;
+    font-weight: 500;
+    color: #222222;
+}
+.holiday{
+    font-family: Airbnb;
+    font-size:14px;
+    font-weight: 400;
+    color:#6a6a6a
+}
+
+.footer-list{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.undersection-footer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.final-bottom-section{
+    display: flex;
+    padding: 4px;
+    margin: -4px;
+}
+
+.final-bottom{
+    margin-top: 3px;
+}
+
+.undersection-footer-root{
+    height: 68.81px;
+   
+}
+
+.final{
+    margin-left:10px;
+}
+.facebook-section{
+    margin: 0px;
+}
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------lap(1440)---------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:1440px){
+
+.section-tab{
+    padding: 0px 80px;
+}
+
+.icon-symbols{
+    padding: 0px 80px;
+}    
+
+.main-section-child{
+    padding:0px 80px;
+}
+
+.footer-main{
+    padding: 48px 80px;
+}
+
+.final-section-footer{
+    padding: 0px 80px
+}
+    
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------lap(1640)----------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+
+@media  screen and (min-width:1640px){
+
+    .section-child{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+
+    .past-head{
+        color:#222222;
+        font-weight: 500;
+    }
+
+    .final{
+        margin-left: 18px;
+    }
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------lap(1880)---------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width:1880px){
+
+    .section-child{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+
+.footer{
+    width: 1114px;
+}
+
+
+.footer-main-root{
+    display: grid;
+    justify-content: center;
+}
+
+.english{
+    margin-right: 8px;
+}
+
+}
+    
