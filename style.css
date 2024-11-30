@@ -92,11 +92,12 @@
 .icon-symbols{
     display: flex;
     text-align: center; 
-    gap: 16px;
+    gap: 25px;
     overflow-x: auto;
     width: 100%;
     height: 74px;
     padding: 0px 24px;
+    white-space: nowrap;
     
 }
 
@@ -126,7 +127,9 @@
     font-size: 12px;
     color: #6a6a6a;
     align-items: center;
-    gap:4px
+    gap:4px;
+    display:flex;
+    flex-direction: column;
     
 }
 
@@ -487,6 +490,7 @@ justify-content: flex-end;
         
     }
 
+
     
 .airbnb-logo{
     display:none;
@@ -593,10 +597,9 @@ justify-content: flex-end;
     
 }
 
-/* .icon-symbols{ */
-    /* padding: 0px 40px; */
-
-/* } */
+.icon-symbols{
+    gap:32px 
+ } 
 
 .internet-tab-button{
     height: 42px;
