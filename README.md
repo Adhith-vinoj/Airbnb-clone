@@ -1,1 +1,1 @@
-airbnb-clone-weld-sigma.vercel.app
+https://airbnb-clone-wklx.vercel.app/
